@@ -13,7 +13,7 @@ function buildList(List){
 	let btn = document.createElement('button')
     btn.addEventListener('click', removeName)
 	btn.textContent = 'Remove'
-	li.textContent = List
+	li.textContent = List 
 	li.appendChild(btn)
 	document.querySelector('#list').appendChild(li)
 }
